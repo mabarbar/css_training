@@ -1,4 +1,19 @@
+* {
+  margin: 0;
+}
+
+main {
+  font-size: rem;
+}
+
+h1 {
+  width: 50%;
+  font-size: 2rem;
+  border: 2px dashed red;
+  padding: .5em;
+}
+
 p {
-  font-size: 64px;
-  color: purple;
+  font-size: rem;
+  border: 2px dashed red;
 }

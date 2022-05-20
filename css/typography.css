@@ -1,6 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');  może być tak zamist linka w html*/
+
 body {
   padding: 10%;
   font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* input, button {
@@ -18,6 +21,7 @@ p {
   word-spacing: 0.5em;
   font-weight: 300;
   font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif /*serif, monospace, fantasy, cursive*/;
 
 }
 

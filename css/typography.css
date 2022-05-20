@@ -1,0 +1,29 @@
+body {
+  padding: 10%;
+  font-size: 1rem;
+}
+
+/* input, button {
+  font: inherit;
+  color: #333;
+} */
+
+p {
+  text-decoration: underline/*overline,line-through,none etc*/;
+  text-transform: uppercase;
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+  font-weight: 300;
+  font-style: italic;
+
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: lightpink;
+  border-radius: 50px;
+}

@@ -1,7 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
+  background-color: #333;
   padding: 5% 10%;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+}
+
+ol {
+  list-style-type: upper-roman; /*none*/
+  /*padding: 0*/
+}
+
+ul {
+  text-align: center;
+  color: yellow;
+  line-height: 1.6;
+  /* list-style-type: square; */
+  /* list-style-position: inside; */
+  /* list-style-image: url(../checkmark.png); */
+  list-style: square url(../checkmark.png) inside;
+}
+
+ol li:nth-child(odd)/*even, 1/2/3...*/ {
+  color: yellowgreen;
+}
+
+ul ::marker {
+  color: red;
+  font-family: fantasy;
+  font-size: 1.2em;
+  content: "Ważne! > ";
 }

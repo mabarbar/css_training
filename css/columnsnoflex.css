@@ -28,5 +28,16 @@ body {
   padding: 1rem;
   break-inside: avoid; /*naprawia ten błąd z przeskakiwaniem tła*/
   break-before: column; /*sprawia że będzie na górze contentu*/
-  
+}
+
+.columns .quote { /*zastosowano dwie klasy, żeby specificity było większe od .columns p*/
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
+}
+
+.nowrap {
+  white-space: nowrap;
 }

@@ -10,9 +10,9 @@ body {
 }
 
 .columns {
-  column-count: 4;
-  column-width: 250px; /*dla responsywności*/
-  columns: 250px 4; /*oznacza to co linija wyżej tylko krócej*/
+  /* column-count: 4;
+  column-width: 250px; //dla responsywności */
+  columns: 250px 4; /*oznacza to co linijki wyżej tylko krócej*/
   column-rule: 3px solid #333;
   column-gap: 3rem;
 }

@@ -15,12 +15,12 @@ body {
   background-color: lightgray;
 } */
 
-/* .opposite {
+.opposite {
   display: inline-block;
   background-color: black;
   color: white;
   padding: 4rem;
-} */
+}
 
 ul {
   list-style-type: none;

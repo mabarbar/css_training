@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Images</title>
-    <link rel="stylesheet" href="css/respImage.css">
-</head>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-<body>
-    
-</body>
-
-</html>
+body {
+  font-family: ""
+}
